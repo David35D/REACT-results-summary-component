@@ -1,0 +1,33 @@
+.result-copy {
+  text-align: center;
+  position: relative;
+  top: 0.5rem;
+}
+
+.result-copy h2 {
+  color: var(--clr-white);
+  font-size: 1.4375rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+}
+
+.result-copy p {
+  margin: 1rem auto;
+}
+
+@media screen and (min-width: 990px) {
+  .result-copy {
+    text-align: center;
+  }
+  
+  .result-copy h2 {
+    color: var(--clr-white);
+    font-size: 1.875rem;
+  }
+  
+  .result-copy p {
+    font-size: 1.125rem;
+    opacity: 90%;
+    text-align: center;
+  }
+}

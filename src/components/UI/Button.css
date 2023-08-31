@@ -1,0 +1,16 @@
+.button {
+    border: none;
+    padding: 1rem;
+    width: 100%;
+    border-radius: 3rem;
+    font-weight: var(--fw-accent);
+    color: var(--clr-white);
+    background-color: var(--clr-dark-gray-blue);
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+.button:hover,
+.button:active {
+    background: linear-gradient(to top, var(--clr-light-royal-blue), var(--clr-light-slate-blue));
+}

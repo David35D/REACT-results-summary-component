@@ -1,0 +1,33 @@
+.test-name {
+    font-size: 1rem;
+}
+
+.reaction {
+    color: var(--clr-light-red);
+    background-color: hsla(0, 100%, 67%, 0.1);
+}
+
+.memory {
+    color: var(--clr-orange-yellow);
+    background-color: hsla(39, 100%, 56%, 0.1);
+}
+
+.verbal {
+    color: var(--clr-green-teal);
+    background-color: hsla(166, 100%, 37%, 0.1);
+}
+
+.visual {
+    color: var(--clr-cobalt-blue);
+    background-color: hsla(234, 85%, 45%, 0.1);
+}
+
+.test-score,
+.low-opacity {
+    color: initial;
+    font-weight: 700;
+}
+
+.low-opacity {
+    opacity: 0.5;
+}

@@ -1,0 +1,60 @@
+.summary {
+    width: 100%;
+    border-radius: 0 1.5rem 1.5rem;
+    display: flex;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 1.875rem;
+    gap: 1.5625rem;
+}
+
+.summary h2 {
+    font-size: 1.375rem;
+    margin-bottom: 0;
+    align-self: flex-start;
+    color: var(--clr-dark-gray-blue);
+}
+
+.tests {
+    padding-left: 0;
+    margin: 0;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 0.94rem;
+    width: 100%;
+}
+
+.test {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1rem;
+    padding: 1rem;
+    font-size: 1rem;
+    border-radius: 0.5rem;
+    width: 100%;
+}
+
+.test div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+}
+
+@media screen and (min-width: 900px) {
+    .summary {
+        width: 50%;
+        height: 32.5rem;
+        padding: 2.1875rem;
+        gap: 2.1875rem;
+    }
+
+    .summary h2 {
+        font-size: 1.375rem;
+        margin-bottom: 0;
+    }
+}
